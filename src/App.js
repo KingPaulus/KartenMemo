@@ -24,16 +24,16 @@ function secureShuffleArray(array) {
     }
 }
 cardImages = [
-    { "src": "/img/Image01", matched: false },
-    { "src": "/img/Image02", matched: false },
-    { "src": "/img/Image03", matched: false },
-    { "src": "/img/Image04", matched: false },
-    { "src": "/img/Image05", matched: false },
-    { "src": "/img/Image06", matched: false },
-    { "src": "/img/Image07", matched: false },
-    { "src": "/img/Image08", matched: false },
-    { "src": "/img/Image09", matched: false },
-    { "src": "/img/Image10", matched: false }
+    { "src": "/img/Image01.png", matched: false },
+    { "src": "/img/Image02.png", matched: false },
+    { "src": "/img/Image03.png", matched: false },
+    { "src": "/img/Image04.png", matched: false },
+    { "src": "/img/Image05.png", matched: false },
+    { "src": "/img/Image06.png", matched: false },
+    { "src": "/img/Image07.png", matched: false },
+    { "src": "/img/Image08.png", matched: false },
+    { "src": "/img/Image09.png", matched: false },
+    { "src": "/img/Image10.png", matched: false }
 ];
 
 
