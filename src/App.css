@@ -4,7 +4,7 @@
 }
 button {
   color: var(--text,#fff);
-  background: var(--background, #1b1523);
+  background: var(--background, #37454c);
   border: 2px solid;
   padding: 6px 12px;
   border-radius: 4px;
