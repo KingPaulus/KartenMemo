@@ -24,24 +24,18 @@ function secureShuffleArray(array) {
     }
 }
 cardImages = [
-    { "src": "/img/a4-front.jpg", matched: false },
-    { "src": "/img/a4-lights.jpg", matched: false },
-    { "src": "/img/a4-otu.jpg", matched: false },
-    { "src": "/img/bike-outside.jpg", matched: false },
-    { "src": "/img/bike-trip.jpg", matched: false },
-    { "src": "/img/car-glow-in.jpg", matched: false },
-    { "src": "/img/car-sun.jpg", matched: false },
-    { "src": "/img/front-a4.jpg", matched: false },
-    { "src": "/img/front-glow.jpg", matched: false },
-    { "src": "/img/front-stand.jpg", matched: false },
-    { "src": "/img/painting-bike.jpg", matched: false },
-    { "src": "/img/selfie-bike.jpg", matched: false },
-    { "src": "/img/sitting-front.jpg", matched: false },
-    { "src": "/img/fav-cud.jpg", matched: false },
-    { "src": "/img/stand-ride.jpg", matched: false },
-    { "src": "/img/close-gara.jpg", matched: false },
-    { "src": "/img/close-mod.jpg", matched: false },
+    { "src": "/img/Image01", matched: false },
+    { "src": "/img/Image02", matched: false },
+    { "src": "/img/Image03", matched: false },
+    { "src": "/img/Image04", matched: false },
+    { "src": "/img/Image05", matched: false },
+    { "src": "/img/Image06", matched: false },
+    { "src": "/img/Image07", matched: false },
+    { "src": "/img/Image08", matched: false },
+    { "src": "/img/Image09", matched: false },
+    { "src": "/img/Image10", matched: false }
 ];
+
 
 function pickRandomImages(cardImages, count) {
     if (count > cardImages.length) {

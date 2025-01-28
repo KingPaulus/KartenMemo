@@ -1,75 +1,60 @@
-<h1 style="color: #01b0f2; text-align:center">Hacktoberfest 2024</h1>
+# KartenMemo
 
-<h1 style="color: #01b0f2; text-align:center">Improve a Memory in react js</h1>
+KartenMemo ist ein simples Memory-Spiel, das mit React.js entwickelt wurde. Das Ziel des Spiels ist es, Paare aus verdeckten Karten zu finden, indem man sie umdreht. Dieses Projekt eignet sich perfekt, um grundlegende und fortgeschrittene React.js-Konzepte zu lernen und zu demonstrieren.
 
-## Open Tasks:
+## Features
 
-- [x] Fix Distorted images [@D3nn7](https://github.com/D3nn7)
-- [x] Mobile Viewport fix 
-- [x] Display always new Pictures, when restarting the game [@KingPaulus](https://github.com/KingPaulus)
-- [x] Saving the Highscore in Local Storage [@bijanRegmi](https://github.com/BijanRegmi)
-- [x] Add winning Alert Message with a celebrating sound [@needl3](https://github.com/needl3)
-- [x] Add a sound by finding a match [@needl3](https://github.com/needl3)
-- [x] Confetti Effect on Celebration 🎉 #45  [@SandeepKrSuman](https://github.com/SandeepKrSuman)
-- [x] Count the time and show it next to the highscore, and in the Higscore Alert from [@needl3](https://github.com/needl3)
-- [X] Build a Begin animation or sound #44 [@abhisheksharm-3](https://github.com/abhisheksharm-3)
-- [x] Button, that makes a Screenshot of the Highscore to share it with friends [@insane-22](https://github.com/insane-22)
-    - [ ] Functionality Buttons on default Overlay
-    - [ ] Add API for Safari Share window
-    - [ ] Fix listener preloading, at the moment it needs two clicks for opening
-- [x] Add light and dark Mode theme [@Surajit0573](https://github.com/Surajit0573)
-- [x] Animation on Pictures if they match #22 [@mohiwalla](https://github.com/mohiwalla)
-- [x] Add runtime in Local Storage and show with High score [@barkha-gupta](https://github.com/barkha-gupta)
-- [ ] Elimnate Sonar Cloud issues #96
-- [ ] Add game history #50
-- [ ] Add a View Counter #21
-- [ ] Make seperate Files optimize code maintability #51
-- [ ] See the Issues Task, or open Pull Requests (they may need help or fixxes)
-- [ ] Another Feature or Bug that's not here listed, but necessary
+- **Reaktionsschnelle Benutzeroberfläche**: Entwickelt mit React.js für schnelle und dynamische Interaktionen.
+- **Einfaches Spielprinzip**: Paare finden, Punkte sammeln und gewinnen.
+- **Anpassbar**: Leicht erweiterbar für neue Funktionen oder ein individuelles Design.
 
-<!-- issueTable -->
+## Installation
 
-<!-- issueTable -->
+1. Klone das Repository:
 
+```bash
+git clone [Repository-URL]
+```
 
-## How to contribute 
+2. Wechsle in das Projektverzeichnis:
 
-- Fork the Repo (optional)
-- Clone the Repository
-- Create a new Branch
-- Make your changes 
-    - Add your Name to the Credits
-    - [Run the App](#run-the-app)
-    - [Test your changes](#test)
-- Push your changes to a PR on this Repo
-- Wait for a Review and merge
-- Celebrate your first PR
-- Repeat ;)
+```bash
+cd Karten-Memory
+```
 
-### <a name="run-the-app"></a> How to run the App
-- `npm install`
-    - Will install all dependencies
-- `npm start` 
-  - Runs the app in the development mode.
-- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Installiere die Abhängigkeiten:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm install
+```
 
-### <a name="test"></a> How to test your Change
-- First on localhost while developing
-- Then on the Vercel Link of your PR
-    - Vercel will deploy your changes automatically to a new Link
-    - You can find the Link in the PR
-- Test mobile and Desktop Viewport
+4. Starte die Entwicklungsumgebung:
 
-Have fun while celebrating Hacktober
- 
-Lets Hack!
+```bash
+npm start
+```
 
-Feel free to make PR and complete the readme with your changes
+5. Öffne deinen Browser und rufe `http://localhost:3000` auf, um das Spiel zu starten.
 
-## Credits
-Sound Effect from
-<a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=6826">Pixabay</a>
-<a href="https://mixkit.co">Mixkit</a>
+## Anforderungen
+
+- Node.js (Version 14 oder höher)
+- npm (Version 6 oder höher)
+- Ein moderner Webbrowser
+
+## Bedienung
+
+1. Starte das Spiel, indem du auf den "Start"-Button klickst.
+2. Klicke auf die Karten, um sie umzudrehen und ein Paar zu finden.
+3. Das Spiel endet, wenn alle Paare gefunden wurden.
+
+## Basisprinzip
+
+Das KartenMemo basiert auf einem bestehenden Repository und wurde darauf aufbauend weiterentwickelt. Die grundlegende Spielmechanik wurde übernommen und mit neuen Funktionen sowie einem angepassten Design erweitert.
+
+Original-Repository: [https://github.com/idna001/Couple-Memory]
+
+## Lizenz
+
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
+
