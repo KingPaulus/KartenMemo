@@ -210,7 +210,13 @@ function App() {
                 <Celebration highScore={highScore} elapsedTime={elapsedTime} />
             )}
             {celebrationStatus && <ShowConfetti />}
-            <h1>A&A Match</h1>
+            <img
+              src="/img/paul-merget-logo.png"
+                alt="card back"
+                width="300"
+                height="150"
+            />
+            <br></br>
             <button onClick={handleNewGame}>New Game</button>
             <button id="theme-toggle" onClick={toggleTheme}>
                 dark
